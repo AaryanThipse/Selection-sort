@@ -8,8 +8,18 @@ The algorithm maintains two subarrays in a given array.<br>
 
 1.The subarray which already sorted. <br>
 2.The remaining subarray was unsorted.<br>
+<br>
 In every iteration of the selection sort, the minimum element (considering ascending order) from the unsorted subarray is picked and moved to the beginning of the sorted subarray.<br>
 
 After every iteration sorted subarray size increase by one and the unsorted subarray size decrease by one.<br>
 
 After the N (size of the array) iteration, we will get a sorted array.<br>
+<br>
+<b><ins>Follow the below steps to solve the problem:</b></ins><br>
+
+1.Initialize minimum value(min_idx) to location 0.<br>
+2.Traverse the array to find the minimum element in the array.<br>
+3.While traversing if any element smaller than min_idx is found then swap both values.<br>
+4.Then, increment min_idx to point to the next element.<br>
+5.Repeat until the array is sorted.<br>
+
