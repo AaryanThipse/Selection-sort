@@ -15,11 +15,16 @@ After every iteration sorted subarray size increase by one and the unsorted suba
 
 After the N (size of the array) iteration, we will get a sorted array.<br>
 <br>
-<b><ins>Follow the below steps to solve the problem:</b></ins><br>
+<b><ins>Follow the below steps to solve the problem:<b><ins><br>
 
 1.Initialize minimum value(min_idx) to location 0.<br>
 2.Traverse the array to find the minimum element in the array.<br>
 3.While traversing if any element smaller than min_idx is found then swap both values.<br>
 4.Then, increment min_idx to point to the next element.<br>
 5.Repeat until the array is sorted.<br>
+<br>
+<b><ins>Output<b><ins><br>
+<img width="922" alt="Selection sort" src="https://user-images.githubusercontent.com/124968304/234187660-2bf8d8d0-0ced-4fca-804c-ccb8bbbf17d8.png">
+
+
 
